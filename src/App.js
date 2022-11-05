@@ -1,6 +1,6 @@
 import {Component} from 'react'
 import './App.css'
-import {Container, Div, Div2, Head, Btn1, Para} from './StyledComponents'
+import {Container, Div, Div2, Head, Btn1, Para,Input1} from './StyledComponents'
 
 // Replace your code here
 class App extends Component {
@@ -19,7 +19,7 @@ class App extends Component {
     console.log(inputType)
     return (
       <Div2>
-        <input
+        <Input1
           onChange={this.getValue}
           placeholder="enter Text"
           value={inputType}
